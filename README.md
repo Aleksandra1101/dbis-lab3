@@ -16,18 +16,17 @@
 -ім'я автора;
 
 2. Отримати навички роботи з веб-фреймворками
-Організація бізнес-логіки на сервері -- файл start.py містить усю бізнес-логіку, що включає:
-
+   Організація бізнес-логіки на сервері  файл start.py містить усю бізнес-логіку, що включає:
 -завантаження пісні на сервер;
 -редагування даних про пісню;
 
 3. Отримати навички розбиття системи на слої
 Система складається з чотирьох слоїв:
 
-database layer -- БД Postresql.
-persistence layer -- зв'язок з БД.
-business layer -- файл start.py містить усю бізнес-логіку.
-presentation layer -- html-файл складає користувацький інтерфейс.
+-database layer - БД Postresql.
+-persistence layer - зв'язок з БД.
+-business layer - файл start.py містить усю бізнес-логіку.
+-presentation layer - html-файл складає користувацький інтерфейс.
 
 4. Навчитись розгортати систему на хмарному хостингу
 Систему розгорнуто на хмарному хостингу Heroku: https://flask-libr.herokuapp.com/
@@ -37,8 +36,8 @@ presentation layer -- html-файл складає користувацький 
 
 Інструкція з розгортання
 У папці з проєктом ініціалізувати git-репозиторій
-Увійти в Heroku-акаунт (через heroku login).
-(git add .; git commit -am "some message"; git push heroku master)
+-Увійти в Heroku-акаунт (через heroku login).
+-(git add .; git commit -am "some message"; git push heroku master)
 
 
 
